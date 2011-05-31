@@ -1,0 +1,1 @@
+dotcloud push sumikawa.wiki .
