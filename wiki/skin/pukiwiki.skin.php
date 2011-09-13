@@ -283,4 +283,9 @@ function _toolbar($key, $x = 20, $y = 20){
 </div>
 
 </body>
+<script>
+  $(document).ready( function() {
+    $('textarea').autoResizeTextAreaQ({"max_rows":60});
+  });
+</script>
 </html>
