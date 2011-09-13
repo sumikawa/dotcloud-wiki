@@ -82,6 +82,10 @@ if (isset($pkwk_dtd)) {
  <link rel="stylesheet" type="text/css" media="screen" href="<?php echo SKIN_DIR ?>pukiwiki.css.php?charset=<?php echo $css_charset ?>" charset="<?php echo $css_charset ?>" />
  <link rel="stylesheet" type="text/css" media="print"  href="<?php echo SKIN_DIR ?>pukiwiki.css.php?charset=<?php echo $css_charset ?>&amp;media=print" charset="<?php echo $css_charset ?>" />
  <link rel="alternate" type="application/rss+xml" title="RSS" href="<?php echo $link['rss'] ?>" /><?php // RSS auto-discovery ?>
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("jquery", "1.5");</script>
+<script type="text/javascript">google.load("jqueryui", "1.8");</script>
+<script type="text/javascript" src="http://www.don.to/js/jquery.autoResizeTextAreaQ-0.1.js"></script>
 
 <?php echo $head_tag ?>
 </head>
