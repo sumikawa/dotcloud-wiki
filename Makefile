@@ -2,7 +2,7 @@ all::
 	@exit 0
 
 push::
-	dotcloud push sumikawa
+	dotcloud push --all sumikawa
 
 logs::
 	dotcloud logs sumikawa.wiki

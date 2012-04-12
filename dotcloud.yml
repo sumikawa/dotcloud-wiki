@@ -1,3 +1,6 @@
 wiki:
   approot: wiki
   type: php
+  systempackages:
+    - libfuse2
+    - fuse-utils
