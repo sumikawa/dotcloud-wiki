@@ -70,11 +70,11 @@ define('UI_LANG', LANG); // 'en' for Internationalized wikisite
 // You may hide these directories (from web browsers)
 // by setting DATA_HOME at index.php.
 
-define('DATA_DIR',      DATA_HOME . '../../data/wiki/'     ); // Latest wiki texts
-define('DIFF_DIR',      DATA_HOME . '../../data/diff/'     ); // Latest diffs
-define('BACKUP_DIR',    DATA_HOME . '../../data/backup/'   ); // Backups
-define('CACHE_DIR',     DATA_HOME . '../../data/cache/'    ); // Some sort of caches
-define('UPLOAD_DIR',    DATA_HOME . '../../data/attach/'   ); // Attached files and logs
+define('DATA_DIR',      DATA_HOME . '../../s3fs/wiki/'     ); // Latest wiki texts
+define('DIFF_DIR',      DATA_HOME . '../../s3fs/diff/'     ); // Latest diffs
+define('BACKUP_DIR',    DATA_HOME . '../../s3fs/backup/'   ); // Backups
+define('CACHE_DIR',     DATA_HOME . '../../s3fs/cache/'    ); // Some sort of caches
+define('UPLOAD_DIR',    DATA_HOME . '../../s3fs/attach/'   ); // Attached files and logs
 define('COUNTER_DIR',   DATA_HOME . 'data/counter/'  ); // Counter plugin's counts
 define('PLUGIN_DIR',    DATA_HOME . 'plugin/'   ); // Plugin directory
 

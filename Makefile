@@ -2,13 +2,13 @@ all::
 	@exit 0
 
 push::
-	dotcloud push --all sumikawa
+	dotcloud push --all wiki
 
 logs::
-	dotcloud logs sumikawa.wiki
+	dotcloud logs wiki.wiki
 
 ssh::
-	dotcloud ssh sumikawa.wiki
+	dotcloud ssh wiki.wiki
 
 restart::
-	dotcloud restart sumikawa.wiki
+	dotcloud restart wiki.wiki
