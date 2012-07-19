@@ -113,7 +113,7 @@ default  :
 $page_title = 'PukiWiki';
 
 // Specify PukiWiki URL (default: auto)
-$script = 'http://wiki.don.to/';
+$script = 'http://wiki-sumikawa.dotcloud.com/';
 
 // Shorten $script: Cut its file name (default: not cut)
 //$script_directory_index = 'index.php';
